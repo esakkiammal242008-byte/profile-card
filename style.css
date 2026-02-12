@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+   
+    background-color: #bd82c5;
+    color: white;
+    text-align: center;
+   
+    
+
+}
+.profile-pic{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 80%;
+    padding: 50px;
+   
+
+}
+.class:hover{
+
+}
+
+h1,p{
+    padding: 10px;
+   
+}
+h1:hover{
+    color: #7a1616;
+     transition-duration: 5s;
+    transform: translateX(30px);
+}
+.one{
+display: inline-block;
+margin-right: 60%;
+background: black;
+}
+a{
+    color: rgb(18, 9, 136);
+   
+}
+.profile-pic:hover{
+    transition-duration: 5s;
+    
+transform: rotate(360deg);
+}
+
+
+
